@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    Home
+    <h1>Home</h1>
   </div>
 </template>
 
@@ -10,23 +10,14 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
+  <style lang="sass" scoped>
+  @import '../style'
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+  .home
+    h1
+      margin-top: 20px
+      text-align: center
+      display: block
+      color: red
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-</style>
+  </style>
